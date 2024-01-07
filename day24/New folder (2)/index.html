@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h4>Student Registration Form</h4>
+
+<form action="/submit_registration" method="post">
+  <label for="fullName">Full Name:</label><br>
+  <input type="text" id="fullName" name="fullName"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age"><br><br>
+
+  <label for="dateOfBirth">Date of Birth:</label><br>
+  <input type="date" id="dateOfBirth" name="dateOfBirth"><br><br>
+
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br><br>
+
+  <label for="country">Country:</label><br>
+  <select id="country" name="country">
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    <option value="canada">Canada</option>
+    <option value="australia">Australia</option>
+  </select><br><br>
+
+  <label for="favSubject">Favorite Subject:</label><br>
+  <input type="text" id="favSubject" name="favSubject"><br><br>
+
+  <label for="bio">Bio:</label><br>
+  <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+  <label for="agree">Agree to terms:</label>
+  <input type="checkbox" id="agree" name="agree" value="agree"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

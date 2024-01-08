@@ -1,68 +1,61 @@
-/* CSS for desktop */
-@media (min-width: 768px) {
-    /* Your styles here */
-}
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Delius+Unicase&family=Exo+2:wght@500&family=Frijole&family=Hi+Melody&family=Indie+Flower&family=Mountains+of+Christmas&family=Poppins:wght@300&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Single+Day&display=swap');
 
-/* CSS for tablets */
-@media (min-width: 481px) and (max-width: 767px) {
-    /* Your styles here */
-}
 
-/* CSS for mobile */
-@media (max-width: 480px) {
-    /* Your styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: radial-gradient(green, rgb(94, 0, 0));
+    color: #000000;
+    margin: 0;
+    padding: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Indie+Flower&family=Poppins:wght@300&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Single+Day&display=swap');
-*{
-    font-family: Poppins;
-}
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url(pexels-photomix-company-887751.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#div{
-    background-color: rgba(63, 69, 69, 0.793);
-    padding: 100px 200px 100px 200px;
-    border-radius: 20px;
-}
-
-form{
-    
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    padding-bottom: 20px;
-}
-input[type=text], input[type=password], input[type=email]{
-    border-radius: 10px;
-    height: 30px;
-}
-a button{
-     
-     border-radius: 4px;
-     color: black;
-     background-color: rgba(255, 255, 255, 0.185);
-     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+  #h1{
+    font-family: mountains of christmas;
+  }
+  header {
+    background-color: #006a04;
+    color: white;
     text-align: center;
-    border-color: rgb(166, 169, 255);
-}
-a button:hover{
-    transition: 2.5s;
-    transform: scale(1.2);
-    cursor: pointer;
+    padding: 1em 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   
     
-}
-h1{
-    color: rgb(255, 255, 255);
-}
+  }
+  
+  .santa-info {
+    margin-bottom: 30px;
+  }
+  
+  .santa-image img {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #006a04;
+    color: white;
+  }
+  button{
+    margin-left: 350px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: greenyellow;
+    background-color: black;
+    transition: 1.5s ease;
+  }
+  button:hover{
+     transform: scale(1.1);
+     box-shadow: 2px 2px 2px white;
+     filter:brightness(200%);
+  }

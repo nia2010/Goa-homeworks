@@ -1,11 +1,12 @@
-function Flight(flightCode, flightStatus) {
-    this.flightCode = flightCode;
-    this.flightStatus = flightStatus;
+const Person = function(name, lastname, age){
+    this.name = name;
+    this.lastname = lastname;
+    this.age = age;
 }
 
 
-let flight1 = new Flight("ABC123", "On Time");
-let flight2 = new Flight("XYZ789", "Delayed");
+const me = new Person('nia', 'xoferia', 14)
+const you = new Person('gio', 'xoferia', 22)
 
-
-
+console.log(me)
+console.log(you)

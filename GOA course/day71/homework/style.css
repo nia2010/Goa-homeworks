@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(0, 0, 43);
+}
+
+.underlayer{
+    background-color: rgb(0, 115, 255);
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+
+.onlayer{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(0, 0, 93);
+    border-radius: 20px;
+    margin-top: -450px;
+    margin-left: 480px;
+}
+
+.onlayer p{
+    font-size: 60px;
+    color: white;
+    margin-left: 225px;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+button{
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: rgb(0, 115, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(0, 115, 255);
+}
